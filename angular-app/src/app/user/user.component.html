@@ -1,0 +1,16 @@
+<div id="user-container" class="container">
+    <h2>User Table</h2>
+             
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>User Name</th>      
+        </tr>
+      </thead>
+      <tbody *ngFor="let user of users">
+        <tr>
+          <td>{{user.userName}}</td>     
+        </tr>        
+      </tbody>
+    </table>
+  </div>
